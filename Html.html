@@ -1,0 +1,43 @@
+<html>
+
+    <link rel="stylesheet" href="style.css" />
+    
+
+    
+    <div class="container">
+    <form action="" id="form">
+        <label for="startingCash">
+          What is your starting cash amount?
+          <div>
+            ₨<input type="number" id="startingCash" value="1000">.00
+          </div>
+        </label>
+          
+        <label for="recurring">
+           How much additional will you save per month?
+          <div>
+            ₨<input type="number" id="recurring" value="1000">/mo.
+          </div>
+        </label>
+        
+        <label for="duration">
+           How many years will you save?
+          <div>
+            <input type="number" id="duration" value="20"> years
+          </div>
+        </label>
+        
+        <label for="return">
+          What is the expected return?
+          <div><input type="number" id="return" value="6" step="0.1">%</div>
+        </label>
+    </div>
+        
+      <!--   <button type="submit" id="submit">Calculate</button> -->
+      </form>
+      <div class="op">
+      <div id="output"></div>
+      </div>
+      <script src="js.js"></script>
+
+      </html>

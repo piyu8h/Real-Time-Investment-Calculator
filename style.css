@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+  padding: 1rem;
+  display: grid;
+  place-content: center;
+  min-height: 100dvh;
+  color: #333;
+  font-size: 1.25rem;
+  background: linear-gradient(to bottom, #7927b2, #fb3182);
+}
+
+.container {
+    background: rgba( 214, 54, 255, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8.5px );
+    -webkit-backdrop-filter: blur( 8.5px );
+    border-radius: 10px;
+}
+
+form { 
+    padding: 2rem;
+}
+
+label,
+label div {
+  display: block;
+}
+
+label div {
+  margin-top: 0.5rem;
+}
+
+input,
+button {
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  border-radius: 20px;
+  border: 0;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 3rem;
+}
+
+input {
+  padding-left: 1.5rem;
+  max-width: 6em;
+}
+
+* + * {
+  margin-top: 3rem;
+}
+
+#output p {
+  margin: 0;
+}
+
+.op{
+    font-family: Roboto, Arial, sans-serif;
+    padding: 2rem;
+    background: rgba( 255, 54, 199, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8.5px );
+    -webkit-backdrop-filter: blur( 8.5px );
+    border-radius: 10px;
+}
+
+
+
+
